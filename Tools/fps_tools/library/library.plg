@@ -1,0 +1,56 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: library - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\HERMAN~1\LOCALS~1\Temp\RSPC0.tmp" with contents
+[
+/nologo /ML /W3 /GX /O2 /I "." /I "..\include" /I ".\windows" /I "include" /D "NDEBUG" /D "WIN32" /D "_MBCS" /D "_LIB" /D "__WINDOWS__" /D "__ARDUINO_USBCDC__" /D "__F747B__" /Fp"Release/library.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\Projects\fps_tools\library\windows\Board_Arduino_USBCDC.cpp"
+"C:\Projects\fps_tools\library\windows\Board_ClassWrapper.cpp"
+"C:\Projects\fps_tools\library\windows\fps_control_windows.c"
+"C:\Projects\fps_tools\library\windows\SerialPort_Windows.cpp"
+"C:\Projects\fps_tools\library\debug.c"
+"C:\Projects\fps_tools\library\f747a_control.c"
+"C:\Projects\fps_tools\library\f747b_control.c"
+"C:\Projects\fps_tools\library\fps_calibration.c"
+"C:\Projects\fps_tools\library\fps_control.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\HERMAN~1\LOCALS~1\Temp\RSPC0.tmp" 
+Creating temporary file "C:\DOCUME~1\HERMAN~1\LOCALS~1\Temp\RSPC1.tmp" with contents
+[
+/nologo /out:"Release\library.lib" 
+.\Release\Board_Arduino_USBCDC.obj
+.\Release\Board_ClassWrapper.obj
+.\Release\fps_control_windows.obj
+.\Release\SerialPort_Windows.obj
+.\Release\debug.obj
+.\Release\f747a_control.obj
+.\Release\f747b_control.obj
+.\Release\fps_calibration.obj
+.\Release\fps_control.obj
+]
+Creating command line "link.exe -lib @C:\DOCUME~1\HERMAN~1\LOCALS~1\Temp\RSPC1.tmp"
+<h3>Output Window</h3>
+Compiling...
+Board_Arduino_USBCDC.cpp
+Board_ClassWrapper.cpp
+fps_control_windows.c
+SerialPort_Windows.cpp
+debug.c
+f747a_control.c
+f747b_control.c
+fps_calibration.c
+fps_control.c
+Creating library...
+
+
+
+<h3>Results</h3>
+library.lib - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
